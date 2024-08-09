@@ -1,0 +1,61 @@
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #f8f9fa;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 60px; 
+    right: 0; 
+    width: calc(100% - 60px); 
+    z-index: 1000; 
+}
+
+.ticket-list {
+    background-color: #ECF0F1;
+    padding: 20px;
+    margin-left: 360px; 
+    margin-top: 60px; 
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+.topbar-left,
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.topbar-center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: right;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px; 
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 18px;
+    color: #555;
+}
+
+.topbar-left span {
+    margin-left: 8px;
+}

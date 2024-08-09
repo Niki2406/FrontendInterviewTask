@@ -1,0 +1,78 @@
+
+   .ticket-detail {
+    padding: 20px;
+    background-color: #ECF0F1;
+    height: calc(100vh - 60px); 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-detail h2 {
+    color: #34495E;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ticket-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+}
+
+.ticket-info p {
+    margin: 5px 0;
+}
+
+.back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #BDC3C7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #AAB7B8;
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.chat-message {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.chat-message.user {
+    background-color: #D5D8DC;
+    align-self: flex-start;
+}
+
+.chat-message.customer {
+    background-color: #ffffff;
+    align-self: flex-end;
+}
+
+.message-content {
+    font-size: 14px;
+}
+
+.message-content strong {
+    display: block;
+    margin-bottom: 5px;
+}
